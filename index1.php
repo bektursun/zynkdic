@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	
 	<title>Speak.js Demo</title>
 	<script src="speakClient.js"></script>
 	<script type="text/javascript" src="http://localhost/js/jquery.js"></script>
