@@ -1,0 +1,2 @@
+# zynkdic
+Kyrgyz Russion Dictionary
