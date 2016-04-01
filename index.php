@@ -3,8 +3,9 @@ define('ZYNK', true);
 define('ZYNK_DIR', dirname(__FILE__));
 define('ZYNK_DS', DIRECTORY_SEPARATOR);
 define('ZYNK_SETTING', ZYNK_DIR.ZYNK_DS.'Setting'.ZYNK_DS);
-define('ZYNK_INCLUDE', ZYNK_DIR.ZYNK_DS.'Include'.ZYNK_DS);
+define('ZYNK_INCLUDE', ZYNK_DIR.ZYNK_DS.'Core'.ZYNK_DS);
 define('ZYNK_LIBRARY', ZYNK_INCLUDE.'Library'.ZYNK_DS);
+require __DIR__ . '/vendor/autoload.php';
 
 if (file_exists(ZYNK_SETTING.'Config.php')){
     require_once (ZYNK_SETTING.'Config.php');
